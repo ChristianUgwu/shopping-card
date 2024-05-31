@@ -1,0 +1,79 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: rgb(201, 132, 132);
+  border-radius: 5px;
+
+
+}
+
+h1, h2, h3 {
+  margin-bottom: 10px;
+  color: brown;
+  margin-right: 500px;
+  font-size: 30px;
+  font-family: inherit;
+  border: aqua 2px solid;
+  background-color: #aaa;
+  margin-left: 400px;
+  
+}
+
+h1 {
+  margin: 0 130px 0 ;
+}
+
+.product, .cart-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.total {
+  font-weight: bold;
+}
+.app {
+  background-color: rgb(194, 221, 221);
+  border-radius: 5px;
+  border: 3px solid aqua;
+  padding: 20px;
+  margin: 500px 100px 500px 100px;
+}
+.cart {
+  border: 3px solid rgb(167, 110, 110);
+  margin: 10px 100px 0 100px;
+  padding: 2rem;
+}
+.product-list {
+  border: 3px solid rgb(167, 110, 110);
+  margin: 10px 100px 0 100px;
+  padding: 30px;
+  
+}
+ 
+.product {
+  justify-content: right;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color:rgb(167, 110, 110);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-left: 800px;
+}
+button:hover {
+  border-color: aqua;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
